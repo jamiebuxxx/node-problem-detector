@@ -22,7 +22,7 @@
       "path": "/home/kubernetes/bin/log-counter",
       "args": [
         "--journald-source=dockerd",
-        "--log-path=/var/log/journal",
+        "--log-path=/run/log/journal",
         "--lookback=5m",
         "--count=10",
         "--pattern=returned error: readlink /var/lib/docker/overlay2.*: invalid argument.*"

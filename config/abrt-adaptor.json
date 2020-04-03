@@ -3,7 +3,7 @@
 	"pluginConfig": {
 		"source": "abrt-notification"
 	},
-	"logPath": "/var/log/journal",
+	"logPath": "/run/log/journal",
 	"lookback": "5m",
 	"bufferSize": 10,
 	"source": "abrt-adaptor",

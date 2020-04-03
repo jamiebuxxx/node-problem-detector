@@ -23,7 +23,7 @@
       "path": "/home/kubernetes/bin/log-counter",
       "args": [
         "--journald-source=kernel",
-        "--log-path=/var/log/journal",
+        "--log-path=/run/log/journal",
         "--lookback=20m",
         "--count=3",
         "--pattern=unregister_netdevice: waiting for \\w+ to become free. Usage count = \\d+"
