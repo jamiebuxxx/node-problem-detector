@@ -3,7 +3,7 @@
 	"pluginConfig": {
 		"source": "dockerd"
 	},
-	"logPath": "/run/log/journal",
+	"logPath": "/run/log/journal/*",
 	"lookback": "5m",
 	"bufferSize": 10,
 	"source": "docker-monitor",
